@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Anatoli Island Clothing</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      color: #442e1d;
+      background-color: #e4e1d8;
+    }
+    header {
+      position: relative;
+      height: 100vh;
+      overflow: hidden;
+      text-align: center;
+      color: white;
+    }
+    header iframe {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      object-fit: cover;
+      z-index: -1;
+      border: none;
+      filter: brightness(0.6);
+    }
+    .hero-content {
+      position: relative;
+      z-index: 1;
+      top: 50%;
+      transform: translateY(-50%);
+      padding: 0 20px;
+    }
+    .hero-content h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    .hero-content p {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+    }
+    .email-form {
+      background: rgba(255, 255, 255, 0.95);
+      padding: 10px;
+      border-radius: 10px;
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: center;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+    .email-form input {
+      padding: 10px;
+      border: 1px solid #c08050;
+      border-radius: 5px;
+      flex: 1 0 200px;
+    }
+    .email-form button {
+      padding: 10px 20px;
+      background-color: #a1311f;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .lookbook img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 10px;
+      margin: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .perks {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      font-size: 1.1em;
+    }
+    .insta-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 10px;
+    }
+    .insta-grid img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    footer {
+      background-color: #c08050;
+      padding: 20px;
+      text-align: center;
+      font-size: 0.9em;
+      color: #fff;
+    }
+    footer a {
+      color: #fff;
+      text-decoration: underline;
+    }
+    .about-img {
+      width: 200px;
+      border-radius: 100px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <iframe src="https://www.instagram.com/p/C95TeeFKUJx/embed" allowfullscreen></iframe>
+  <div class="hero-content">
+    <h1>Anatoli Island Clothing</h1>
+    <p>Island days. Timeless summerwear.</p>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdMy5wwUwzMjdUM9edNUQZ5fBjNnrdF66yzMroJgkqxyLCDQQ/viewform?embedded=true" width="640" height="909" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  </div>
+</header>
+
+<section>
+  <h2>About Anatoli</h2>
+  <p>Colors and pallets inspired by the Cypriot island, sun and breeze.</p>
+  <img class="about-img" src="https://i.imgur.com/aqyDSSK.jpeg" alt="Founder of Anatoli">
+</section>
+
+<section class="lookbook">
+  <h2>Summer 2025 Lookbook</h2>
+  <div style="display:flex; flex-wrap: wrap; justify-content: center;">
+    <img src="https://images.unsplash.com/photo-1618354691436-56b9c934198d" alt="Look 1">
+    <img src="https://images.unsplash.com/photo-1542060748-10c28b62716b" alt="Look 2">
+    <img src="https://images.unsplash.com/photo-1622482188650-b44b72621012" alt="Look 3">
+  </div>
+</section>
+
+<section>
+  <h2>Why Join the Waitlist?</h2>
+  <div class="perks">
+    <p>✅ 10% Off Your First Order</p>
+    <p>✅ Early Access to the Collection</p>
+    <p>✅ Limited Stock - Shop Before It Sells Out</p>
+  </div>
+</section>
+
+<section>
+  <h2>Be First to Shop Anatoli</h2>
+  <p>Sign up and be the first to know when we go live!</p>
+  <form class="email-form">
+    <input type="email" placeholder="Enter your email" required>
+    <button type="submit">Join the List</button>
+  </form>
+</section>
+
+<section>
+  <h2>Follow Us on Instagram</h2>
+  <div class="insta-grid">
+    <img src="/mnt/data/IMG_3703.JPEG" alt="Insta 1">
+    <img src="https://images.unsplash.com/photo-1600195077078-06a0d432b70e" alt="Insta 2">
+    <img src="https://images.unsplash.com/photo-1600181953850-cb86f8a3f263" alt="Insta 3">
+    <img src="https://images.unsplash.com/photo-1603570419737-94f57143b221" alt="Insta 4">
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 Anatoli Island Clothing. All rights reserved.</p>
+  <p>Follow us @anatoliclothing | Contact: <a href="mailto:anatoli.brand@gmail.com">anatoli.brand@gmail.com</a> | Tel: +357 96850236</p>
+</footer>
+
+</body>
+</html>
